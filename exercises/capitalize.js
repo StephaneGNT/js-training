@@ -6,6 +6,14 @@
  * and in lowercase for the rest of the string
  *
  */
+function capitalize(str){
+	let str2="";
+	str2+=str[0].toUpperCase();
+	for(let i=1;i<str.length;i++){
+		str2+=str[i].toLowerCase()
+	}
+	return str2;
+}
 
 
 //* Begin of tests
